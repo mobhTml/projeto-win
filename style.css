@@ -60,3 +60,25 @@ section#conteudo img:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.137);
     transition: transform .3s, border .1s;
 }
+
+
+footer{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+margin: 0;
+padding: 0;
+
+
+}
+
+
+footer>h1 {
+ color: rgb(121, 28, 228);
+
+}
+
+footer>h1:hover {
+text-shadow: 0 0 5px rebeccapurple, 0 0 10px red, 0 0 15px yellowgreen, 0 0 20px yellow, 0 0 25px maroon, 0 0 30px gold;
+}
