@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+body {
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(imagems/imagem-fundo.jfif);
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+section#caixa{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-image: url(imagems/tela-tablet.png);
+    
+
+    height: 627px;
+    width: 510px;
+}
+iframe#lap{
+    position: relative;
+    top: 67px;
+    left: 74px;
+    width: 369px;
+    height: 500px;
+   
+
+}
+
+iframe#p1{
+    width: 100vw;
+    height: 100vh;
+   
+}
+section#conteudo{
+    text-align: left;
+}
+
+section#conteudo img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.082);
+}
+
+section#conteudo img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.199);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.137);
+    transition: transform .3s, border .1s;
+}
